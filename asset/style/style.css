@@ -3,7 +3,7 @@
 :root {
   --global-font: #fff;
   --color-header-font: #86868b;
-  --background-color-nav: #161617;
+  --background-color-nav: #f9f9fc;
 }
 
 *,
@@ -56,7 +56,6 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 16.6px;
-  /* z-index: 1; */
 }
 
 .container1 .sanbox span {
@@ -65,113 +64,3 @@ ul {
   background-color: rgba(255, 0, 0, 0.1);
 }
 
-header {
-  background-color: #181818;
-  height: 2.75rem;
-}
-
-.container .menu,
-.container .menu .nav-content,
-.nav-list,
-.nav-menu-list,
-.nav-item,
-.nav-submenu-group,
-.nav-submenu-group > li,
-.nav-submenu-group > li > a,
-.nav-submenu-group > li > a > span,
-.nav-submenu-list-item-elevated {
-  height: 44px;
-  width: auto;
-}
-
-.nav-submenu-group > li,
-.nav-submenu-group > li > a,
-.nav-submenu-group > li > a > span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: auto;
-  height: 44px;
-}
-
-.nav-menu-list.nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.nav-item.nav-menu {
-  padding: 0;
-}
-
-.nav-item {
-  padding: 0 8px;
-}
-
-.nav-submenu-item > a {
-  font-size: 12px;
-  font-weight: 400;
-  text-decoration: none;
-  color: var(--global-font);
-  text-transform: capitalize;
-}
-
-.submenu-link-store {
-  width: 100%;
-}
-
-.submenu-link {
-  display: none;
-}
-
-.nav-item:nth-child(2).nav-menu {
-  width: 80%;
-}
-
-.submenu-link-store.submenu-link {
-  position: absolute;
-  display: block;
-  left: 0;
-  width: 100%;
-  background-color: var(--background-color-nav);
-  padding: 44px 30px;
-  /* z-index: -1; */
-}
-
-.nav-flyout-content {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-}
-
-.nav-submenu-header {
-  color: var(--color-header-font);
-  font-size: 12px;
-  font-weight: 400;
-  padding: 9px 11px 7px;
-}
-
-.nav-submenu-group {
-  height: 100% !important;
-}
-
-.nav-submenu-list {
-  height: 100%;
-}
-
-.nav-submenu-list-item-elevated{
-  padding: 9px 11px 7px;
-}
-
-.global-submenu-link {
-  text-decoration: none;
-  font-size: 24px;
-  color: var(--global-font);
-  font-weight: 500;
-}
