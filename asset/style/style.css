@@ -138,11 +138,11 @@ li {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px), (max-width: 1280px) {
   .container1 {
     display: block;
     position: relative;
-    max-width: 1280px;
+    max-width: 1024px;
     margin: auto;
     /* z-index: 99999; */
   }
@@ -151,11 +151,11 @@ li {
     position: absolute;
     display: flex;
     flex-direction: row;
-    gap: 29px;
+    gap: 16.6px;
   }
 
   .container1 .sanbox span {
-    width: 80px;
+    width: 70px;
     height: 100vh;
     background-color: rgba(255, 0, 0, 0.1);
   }
@@ -203,13 +203,13 @@ li {
   }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 960px), (max-width: 1024px) {
   #globalnav .globalnav-menu {
     display: contents;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px), (max-width: 960px) {
   .container1 {
     display: block;
     position: relative;
